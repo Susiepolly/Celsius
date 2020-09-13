@@ -43,8 +43,8 @@
     }
 
     .header-area {
-        padding-top: 120px;
-        padding-bottom: 100px;
+        padding-top: 160px;
+        padding-bottom: 75px;
         height: auto;
     }
     .page-title,
@@ -52,13 +52,13 @@
         font-size: 20px;
     }
     .mainmenu-area .navbar-toggle {
-        margin-top: 20px;
+        margin-top: 35px;
     }
     .mainmenu-area .navbar-toggle .icon-bar {
-        background-color: #ffffff;
+        background-color: #1792C3;
     }
     .mainmenu-area #primary-menu {
-        background-color: #138FC2;
+        background-color: #FFFFFF;
     }
     .mainmenu-area #primary-menu ul {
         overflow-y: auto;

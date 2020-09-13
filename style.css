@@ -128,7 +128,7 @@ input:-webkit-autofill:focus {
     align-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    min-height: 17em;
+    min-height: 300px;
 }
 
 .section-padding {
@@ -249,7 +249,7 @@ input:-webkit-autofill:focus {
 **/
 
 .box {
-    padding: 30px 30px 0px 30px;
+    padding: 30px 30px;
     text-align: center;
     -webkit-box-shadow: 0 0 0 0 #ffffff;
     box-shadow: 0 0 0 0 #ffffff;
@@ -258,7 +258,7 @@ input:-webkit-autofill:focus {
     border-radius: 5px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    min-height: 260px;
+    min-height: 280px;
 }
 
 .box:hover {
@@ -275,7 +275,7 @@ input:-webkit-autofill:focus {
 }
 
 .box .box-icon {
-    height: 140px;
+    height: 160px;
     margin-bottom: 20px;
 }
 
@@ -284,6 +284,14 @@ input:-webkit-autofill:focus {
     filter: grayscale(100%);
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.box .sales-icon img {
+  border: solid;
+  border-color: #1792C3;
+  height: 160px;
 }
 
 .box:hover .box-icon img {
@@ -303,13 +311,13 @@ input:-webkit-autofill:focus {
     z-index: 9999999;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    background-color: rgb(0, 79, 128, 1);
+    background-color: #FFFFFF;
 }
 
 .overlay,
 .overlay a,
 .mainmenu-area a {
-    color: #ffffff;
+    color: #1792C3;
 }
 
 .mainmenu-area .logo {
@@ -343,7 +351,7 @@ input:-webkit-autofill:focus {
     height: 0;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
-    border-top: 10px solid #ffffff;
+    border-top: 10px solid #1792C3;
     opacity: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -357,11 +365,11 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area #primary-menu ul li.active a,
 .mainmenu-area #primary-menu ul li a:hover {
-    border-top: 3px solid #ffffff;
+    border-top: 3px solid #1792C3;
 }
 
 .mainmenu-area.affix {
-    background-color: #004F7F;
+    background-color: #FFFFFF;
 }
 
 
@@ -371,15 +379,10 @@ input:-webkit-autofill:focus {
 **/
 
 .header-area {
-    background: #000000 url('images/slider1.jpg') no-repeat scroll center center / cover;
+    background: #000000 url('images/slider1xs.jpg') no-repeat scroll center center / cover;
+    color: #FFFFFF;
 }
 
-/* .anlge-bg {
-    background: url('images/angle-top.png') no-repeat scroll center top/ 100% auto;
-} */
-.anlge-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom -120px/ 100% auto;
-}
 .overlay {
     position: relative;
 }
@@ -408,6 +411,10 @@ input:-webkit-autofill:focus {
     padding: 56px 22px;
     display: inline-block;
     margin: auto;
+}
+
+.screen-slider .item img {
+    border-radius: 10px;
 }
 
 .branditem {
@@ -476,7 +483,7 @@ input:-webkit-autofill:focus {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .caption-slider .carousel-indicators li {
@@ -623,7 +630,7 @@ input:-webkit-autofill:focus {
 ***/
 
 .testimonial-area {
-    background: url('images/slider3xs.jpg') no-repeat scroll center center / cover;
+    background: url('images/slider3.jpg') no-repeat scroll center center / cover;
     position: relative;
     color: #ffffff;
 }
@@ -667,10 +674,10 @@ input:-webkit-autofill:focus {
 ***/
 
 .price-area {
-    background: url('images/slide-1xs.jpg') no-repeat scroll center center / cover;
+    background: url('images/slide-1.jpg') no-repeat scroll center center / cover;
 }
 .client-area {
-    background: url('images/slider2xs.jpg') no-repeat scroll center center / cover;
+    background: url('images/slider2.jpg') no-repeat scroll center center / cover;
 }
 
 .price-table h3 {
@@ -804,7 +811,7 @@ input:-webkit-autofill:focus {
 }
 
 .single-blog .blog-content {
-    padding: 40px 20px;
+    padding: 40px 25px;
     background-color: #ffffff
 }
 
@@ -819,7 +826,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom / 100% auto;
+    /* background: url('images/angle-bg.png') no-repeat scroll center bottom / 100% auto; */
     z-index: -1;
 }
 
