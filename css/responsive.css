@@ -47,7 +47,8 @@
         padding-bottom: 100px;
         height: auto;
     }
-    .page-title h2 {
+    .page-title,
+    .header-area h2 {
         font-size: 20px;
     }
     .mainmenu-area .navbar-toggle {
