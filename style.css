@@ -413,13 +413,13 @@ input:-webkit-autofill:focus {
 .head-icons {
  position: fixed;
  right: 2vw;
- top: 37vh;
+ top: 38vh;
  z-index: 9;
 }
 
 .head-icon {
- height: 80px;
- margin: 20px;
+ height: 60px;
+ margin: 30px;
 }
 
 .nav-icons {
