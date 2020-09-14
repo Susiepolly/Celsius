@@ -410,6 +410,22 @@ input:-webkit-autofill:focus {
     margin-top: 30px;
 }
 
+.head-icons {
+ position: fixed;
+ right: 2vw;
+ top: 37vh;
+ z-index: 9;
+}
+
+.head-icon {
+ height: 80px;
+ margin: 20px;
+}
+
+.nav-icons {
+  display: none;
+}
+
 .screen-slider .item {
     background: url('images/mobile2.png') no-repeat scroll center center / auto 100%;
     padding: 56px 22px;
@@ -894,6 +910,11 @@ input:-webkit-autofill:focus {
 
 .form-double input:last-child {
     float: right;
+}
+
+.map iframe {
+  width:625px;
+  height:400px;
 }
 
 /*-----------
