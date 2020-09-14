@@ -222,6 +222,7 @@ input:-webkit-autofill:focus {
 
 .page-title {
     margin-bottom: 60px;
+    padding: 10px;
 }
 
 .page-title h2 {
@@ -293,7 +294,7 @@ input:-webkit-autofill:focus {
 }
 
 .box .sales-icon img {
-  border: solid;
+  border: 1px solid;
   border-color: #1792C3;
   height: 160px;
 }
@@ -412,16 +413,21 @@ input:-webkit-autofill:focus {
 
 .head-icons {
  position: fixed;
- right: 2vw;
+ right: 0;
  top: 38vh;
  z-index: 9;
 }
 
 .head-icon {
- height: 70px;
- margin: 30px;
- border-radius: 200px;
+ height: 50px;
+ width: 50px;
+ margin: 40px;
+ border-radius: 30px;
  box-shadow: 2px 2px 10px 1px #ccc;
+}
+
+.head-icon img {
+ width: 100%;
 }
 
 .nav-icons {
