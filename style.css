@@ -132,7 +132,7 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-    padding: 120px 0;
+    padding: 160px 0;
 }
 
 .social-menu {
@@ -849,7 +849,7 @@ input:-webkit-autofill:focus {
 ***/
 
 .footer-area {
-    padding-top: 120px;
+    padding-top: 160px;
     z-index: 1;
 }
 
