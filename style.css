@@ -288,6 +288,10 @@ input:-webkit-autofill:focus {
     border-radius: 10px;
 }
 
+.box .services-icon img {
+  height: 80px;
+}
+
 .box .sales-icon img {
   border: solid;
   border-color: #1792C3;

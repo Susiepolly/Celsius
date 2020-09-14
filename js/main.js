@@ -4,7 +4,7 @@
     $(".carousel-inner .item:first-child").addClass("active");
     /* Mobile menu click then remove
     ==========================*/
-    $(".mainmenu-area #mainmenu li a").on("click", function () {
+    $(".mainmenu-area #primary-menu li a").on("click", function () {
         $(".navbar-collapse").removeClass("in");
     });
     /*WoW js Active
@@ -156,10 +156,12 @@
 
 
     // Select all links with hashes
-    $('.mainmenu-area a[href*="#"]')
+    $('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
         .not('[href="#0"]')
+        .not('.panel-title a')
+        .not('.contact-overlay')
         .click(function (event) {
             // On-page links
             if (
